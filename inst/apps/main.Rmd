@@ -1,0 +1,12 @@
+---
+title: "main"
+author: "Reinhard SImon"
+date: "March 6, 2015"
+output: html_document
+runtime: shiny
+---
+
+```{r, echo = FALSE}
+data(iris)
+bdal::app_view_study(iris)
+```

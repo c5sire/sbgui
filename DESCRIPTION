@@ -12,6 +12,7 @@ License: MIT + file LICENSE
 Depends: R (>= 3.1.2)
 URL: http://github.com/c5sire/sbgui
 BugReports: http://github.com/c5sire/sbgui/issues
+Import: rmarkdown, shiny
 Suggests: knitr,
     testthat
 VignetteBuilder: knitr
